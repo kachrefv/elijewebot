@@ -1,0 +1,36 @@
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint
+.eslintcache
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# npm
+npm-debug.log*
+.npm/
+
+# yarn
+.yarn/
+.pnp.*
+
+# env
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# misc
+*.log
