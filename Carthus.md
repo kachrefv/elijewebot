@@ -13,6 +13,7 @@ Elijeweb is a Next.js application designed to function as an AI sales assistant 
 *   **`public/`**: Stores static assets such as images and favicons.
 *   **`package.json`**: Manages project dependencies, defines development scripts (e.g., `dev`, `build`, `start`), and holds project metadata.
 *   **`tailwind.config.ts`**: Configures Tailwind CSS, including custom themes, color palettes, font families, and dark mode settings.
+*   **`postcss.config.mjs`**: PostCSS configuration, primarily used by Tailwind CSS for processing CSS.
 *   **`next.config.mjs`**: The main configuration file for Next.js, allowing for custom build settings and environment variables.
 *   **`tsconfig.json`**: TypeScript compiler configuration, ensuring type safety and proper compilation of the project.
 
@@ -36,5 +37,4 @@ To get started with the Elijeweb project, follow these steps:
     # or
     pnpm dev
     ```
-3.  **Access Application**: Open your web browser and navigate to `http://localhost:3000` to view the application.
-4.  **Development**: Begin editing the application by modifying files within the `app/` directory, particularly `app/page.tsx`. Changes will be hot-reloaded automatically.
+3.  **Access Application**: Open your web browser and navigate to `http://localhost:3000`.
